@@ -12,6 +12,10 @@
   align-items: flex-end;
 }
 
+.group * {
+  padding: 0.2em 0;
+}
+
 .spacer {
   opacity: 0.5;
   border-bottom: 1px dashed currentColor;
@@ -22,7 +26,6 @@
 input {
   font: inherit;
   width: 5em;
-  padding: 0.2em 0;
   margin: 0;
   border: none;
   border-bottom: 1px solid currentColor;
