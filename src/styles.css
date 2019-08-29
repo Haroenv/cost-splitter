@@ -1,0 +1,36 @@
+.App {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  text-align: center;
+  max-width: 15em;
+  margin: 0 auto;
+}
+
+.group {
+  margin: 0.5em 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.spacer {
+  opacity: 0.5;
+  border-bottom: 1px dashed currentColor;
+  flex-grow: 1;
+  margin: 0 0.2em;
+}
+
+input {
+  font: inherit;
+  width: 5em;
+  padding: 0.2em 0;
+  margin: 0;
+  border: none;
+  border-bottom: 1px solid currentColor;
+}
+
+hr {
+  width: 100%;
+  border: none;
+  border-bottom: 3px double currentColor;
+  margin: 1em 0;
+}
